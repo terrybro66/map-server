@@ -8,7 +8,7 @@ const apiRoutes = require("./routes/api");
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://datakraft.co.uk",
+    origin: "https://datakraft.co.uk",
   })
 );
 
